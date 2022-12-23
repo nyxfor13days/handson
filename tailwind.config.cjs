@@ -7,6 +7,9 @@ module.exports = {
       padding: "1rem",
     },
     extend: {
+      fontFamily: {
+        sans: ["Prompt", "sans-serif"],
+      },
       colors: ({ colors }) => ({
         background: colors.zinc[200],
         onBackground: colors.zinc[900],
