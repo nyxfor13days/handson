@@ -34,9 +34,7 @@ module.exports = {
         warningVariant: colors.yellow[200],
         onWarningVariant: colors.yellow[900],
       }),
-      borderRadius: ({ borderRadius }) => ({
-        DEFAULT: borderRadius["2xl"],
-      }),
+      borderRadius: { DEFAULT: "1rem" },
     },
   },
   plugins: [],
